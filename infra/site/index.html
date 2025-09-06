@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>TechMap — Poké Explore</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+
+    <canvas id="game" aria-label="Pokémon-style tech map"></canvas>
+
+    <div id="dialog" class="hidden" role="dialog" aria-modal="true">
+      <div class="dialog-inner">
+        <div class="bubble">
+          <div class="bubble-header">
+            <span class="bubble-marker" aria-hidden="true"></span>
+            <div class="bubble-name" id="dialog-name"></div>
+          </div>
+          <div class="bubble-text" id="dialog-text"></div>
+          <div class="bubble-links" id="dialog-links"></div>
+          <div class="bubble-footer">
+            <button id="dialog-close" class="bubble-close" aria-label="Close dialog">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gamepad" aria-hidden="false">
+      <div class="dpad">
+        <button class="btn up" data-dir="up" aria-label="Up"></button>
+        <button class="btn left" data-dir="left" aria-label="Left"></button>
+        <button class="btn right" data-dir="right" aria-label="Right"></button>
+        <button class="btn down" data-dir="down" aria-label="Down"></button>
+      </div>
+      <div class="ab">
+        <button class="btn a" data-act="interact" aria-label="A Interact">A</button>
+        <button class="btn b" data-act="cancel" aria-label="B Close">B</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

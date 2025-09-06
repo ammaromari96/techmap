@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# AWS CDK
+cdk.out/
+infra/cdk.out/
+
+# TypeScript build outputs (infra only)
+infra/bin/**/*.js
+infra/lib/**/*.js
+infra/**/*.d.ts
+infra/*.tsbuildinfo
+
+# Keep site JS under infra/site
+!infra/site/**/*.js
+
+# IDE
+.vscode/
+.idea/
