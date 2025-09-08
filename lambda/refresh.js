@@ -25,13 +25,20 @@ function absoluteUrl(src, base) {
 function extractJsonParseBlocks(jsText) {
   const blocks = [];
   const re = /JSON\.parse\(\s*(["'])((?:\\\1|(?:(?!\1)).)*)\1\s*\)/g;
+
+  function decodeJsString(raw, quote) {
+    // Minimal: if original literal used single quotes, escape any double quotes,
+    // then wrap in double quotes so JSON.parse can decode the JS string once.
+    if (quote === "'") raw = raw.replace(/"/g, '\\"');
+    return JSON.parse('"' + raw + '"');
+  }
+
   let m;
   while ((m = re.exec(jsText)) !== null) {
     const quote = m[1];
     const raw = m[2];
     try {
-      // eslint-disable-next-line no-eval
-      const unescaped = eval(quote + raw + quote);
+      const unescaped = decodeJsString(raw, quote);
       blocks.push(JSON.parse(unescaped));
     } catch (_) { /* ignore malformed blocks */ }
   }
